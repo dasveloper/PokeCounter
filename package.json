@@ -1,0 +1,19 @@
+{
+  "name": "pokecounter",
+  "version": "1.0.0",
+  "description": "Encounter counter for PokeMMO",
+  "main": "main.js",
+  "author": "DasBeasto",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder -mwl"
+  },
+  "devDependencies": {
+    "electron": "^24.1.2",
+    "electron-builder": "^23.6.0"
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0"
+  }
+}

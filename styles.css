@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto.ttf');
+}
+* {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+html,body{
+  padding:0;
+  margin: 0;
+  border-radius: 0;
+}
+button {
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  background: #000000;
+  color: #ffffff;
+  opacity: .8;
+}
+button:hover {
+  opacity: 1
+}
+.outer-wrapper{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+}
+.inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 1px;
+}
+.input-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background: black;
+  opacity: .8;
+}
+.bottom-wrapper {
+  display: flex;
+  gap: 1px;
+}
+.side-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+input {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  appearance: none;
+  border: none;
+  outline:none;
+  background-color: none;
+  background:none;
+  color: #ffffff
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.dragger {
+  -webkit-app-region: drag;
+}
+.side-wrapper button {
+  padding: 0 6px;
+  flex: 1;
+}
+.bottom-wrapper button {
+  padding: 6px 0;
+  font-size: 16px;
+  flex: 1;
+}
+
